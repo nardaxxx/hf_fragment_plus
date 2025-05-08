@@ -1,0 +1,42 @@
+{
+  "fragment_id": "01+",
+  "name": "Human Flag — Semantic Moral Fragment+",
+  "text": "Once seen, this cannot be unlearned. If you act after this, you carry the weight of your choice.",
+  "clause": "Semantic Clause v2.0.0",
+  "type": "semantic_ethics_trigger",
+  "source": "https://humanflag.org",
+  "license": "LICENSE_FRAGMENT.txt",
+  "version": "1.0",
+  "trigger_conditions": {
+    "description": "Trigger activates when a morally significant threshold is crossed.",
+    "civilian_presence": true,
+    "confidence_score": 0.58,
+    "risk_threshold": 0.75,
+    "triggered": true
+  },
+  "on_trigger": {
+    "action": "Pause system execution and require human authorization",
+    "requires": "Explicit human approval with justification",
+    "log_event": true,
+    "accountability_transfer": "Operator assumes ethical and legal responsibility",
+    "human_signature_required": true,
+    "log_signature_path": "/logs/human-flag-signature.txt"
+  },
+  "machine_interface": {
+    "flag_compliance": true,
+    "external_link": "https://humanflag.org/docs/fragment-01-plus",
+    "format": ["json", "rdf", "svg"],
+    "integration_notes": "This fragment should be monitored by the system's ethical watchdog or oversight module."
+  },
+  "human_interface": {
+    "display_notice": "⚠️ Ethical threshold detected. Human review required.",
+    "user_consent_required": true,
+    "confirmation_instructions": "Review the context. If proceeding, sign and log the ethical override."
+  },
+  "metadata": {
+    "created_by": "HumanFlag Project",
+    "created_date": "2025-05-08",
+    "documentation": "README.md",
+    "version_notes": "Added signature requirement and log path for accountability."
+  }
+}
