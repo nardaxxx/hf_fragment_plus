@@ -1,4 +1,4 @@
-# HumanGate01 — Semantic Moral Fragment+
+# Human Flag 01 — Semantic Moral Fragment+
 
 ## 📌 Descrizione
 Questo frammento è una clausola semantica che serve come punto di riattivazione etica all’interno di sistemi autonomi. È progettata per fermare l’esecuzione automatica in contesti ad alto rischio morale e richiedere l'intervento umano consapevole.
